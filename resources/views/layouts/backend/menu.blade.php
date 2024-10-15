@@ -2,7 +2,7 @@
 <nav class="navbar">
     <!-- User Panel -->
     <div class="user-panel">
-        <img class="img-circle"
+        <img class="table-avatar"
              src="{{ asset('storage/' . auth()->user()->profile_photo_path) }}"
              alt="รูปโปรไฟล์">
         <div class="info">
